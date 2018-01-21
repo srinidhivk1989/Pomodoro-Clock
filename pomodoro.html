@@ -1,0 +1,41 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pomodoro</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="pomodoro.css">
+
+
+</head>
+<body>
+<div class="text-center">
+	<h2>Pomodoro Clock</h2>
+<audio id="buzzer" src="buzzer.mp3" type="audio/mpeg"></audio>
+
+	<div id="breakdiv">
+	<h2 id=breaktitle>Break Time</h2>
+	<a href="#" class="btn btn-primary" id="addbreak">+</a>
+	<h4 id="breaknum">5</h4>
+	<a href="#" class="btn btn-primary" id="minusbreak">-</a>
+	</div>
+
+ 	<div id="sessiondiv">
+	<h2 id=sessiontitle>Session Time</h2>
+	<h2 id="timetype"></h2>
+	<a href="#" class="btn btn-primary" id="addsession">+</a>
+	<h4 id="sessionnum">25</h4>
+	<a href="#" class="btn btn-primary" id="minussession">-</a>
+	<a href="#" class="btn btn-primary" id="reset">Reset</a>
+	</div>
+
+
+	<a href="#" class="btn btn-primary" id="start">Start</a>
+
+	</div>
+	<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+	<script type="text/javascript" src=pomodoro.js></script>
+
+
+</body>
+</html>
