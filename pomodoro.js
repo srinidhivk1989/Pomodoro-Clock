@@ -1,6 +1,6 @@
 $(document).ready(function()
 {
-var buzzer=$("#buzzer");
+var buzzer=$("#buzzer")[0];
 var breakcount=parseInt($("#breaknum").html());
 //console.log(breakcount);
 var sessioncount=parseInt($("#sessionnum").html());
